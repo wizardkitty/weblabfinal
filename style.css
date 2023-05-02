@@ -50,7 +50,9 @@ nav a:hover {
     background-color: #ddd;
     color: red;
 }
-
+.contact {
+	list-style-type: none;
+}
 /* Style the container */
 .container {
     display: flex;
