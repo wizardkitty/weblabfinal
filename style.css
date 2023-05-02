@@ -1,2 +1,72 @@
 /* CSS Document */
+body {
+	background-color: #D3F3FF ;
+}
+header {
+	text-align: center;
+	background-color: lightskyblue;
+	border-radius: 20px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	padding: 10px;
+}
+header h1,header h2{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+}
+nav {
+    background-color: #333;
+    overflow: hidden;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
 
+/* Style the navigation list items */
+nav ul {
+    list-style-type: none;
+}
+
+/* Style the navigation links */
+nav li {
+    float: left;
+	width: 33%;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	border-radius: 10px;
+	font-size: 20px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: #2CE3F9;
+}
+
+/* Change the link color on hover */
+nav a:hover {
+    background-color: #ddd;
+    color: red;
+}
+
+/* Style the container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Style the left column */
+.left-column {
+    width: 50%;
+    padding: 15px;
+	box-sizing: border-box;
+}
+
+/* Style the right column */
+.right-column {
+    width: 50%;
+    padding: 15px;
+	box-sizing: border-box;
+}
