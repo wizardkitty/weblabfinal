@@ -59,6 +59,17 @@ nav a:hover {
     flex-wrap: wrap;
 }
 
+.container h3 {
+	font-size: 28px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.container h4 {
+	font-size: 19px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.container ul li {
+	font-size: 20px;
+}
 /* Style the left column */
 .left-column {
     width: 50%;
@@ -89,14 +100,14 @@ nav a:hover {
   .col-p-12 {width: 100%;}
   .left-column {
     width: 100%;
-    padding: 15px;
+    padding: 0px;
 	box-sizing: border-box;
    }
 
   /* Style the right column */
   .right-column {
     width: 100%;
-    padding: 15px;
+    padding: 0px;
 	box-sizing: border-box;
 }
 }
