@@ -1,7 +1,7 @@
 // define a function to scramble the words in lists
 function scrambleLists() {
-  // get all unordered and ordered lists on the page
-  const lists = document.querySelectorAll('ul, ol');
+  // get all unordered and ordered lists on the page that are not inside a <nav> element
+  const lists = document.querySelectorAll('ul:not(nav ul), ol:not(nav ol)');
 
   // iterate through each list
   lists.forEach(list => {
@@ -21,8 +21,10 @@ function scrambleLists() {
   });
 }
 
-// get a reference to the button element
-const button = document.querySelector('button');
+document.addEventListener('DOMContentLoaded', function() {
+  // get a reference to the button element
+  const button = document.querySelector('#scramble-button');
 
-// add an event listener to the button to call the scrambleLists function when clicked
-button.addEventListener('click', scrambleLists);
+  // add an event listener to the button to call the scrambleLists function when clicked
+  button.addEventListener('click', scrambleLists);
+});
