@@ -3,8 +3,8 @@ function openPopup() {
   const videoUrl = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
   
   // Popup window dimensions
-  const width = 560;
-  const height = 315;
+  const width = 700;
+  const height = 500;
   
   // Calculate the position of the popup window to center it on the screen
   const left = (window.innerWidth / 2) - (width / 2);
