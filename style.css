@@ -110,6 +110,28 @@ nav a:hover {
     padding: 0px;
 	box-sizing: border-box;
 }
+	/* Reset the float property and width for the list items */
+  nav li {
+    float: none;
+    width: 100%;
+  }
+
+  /* Add styles for vertical navigation */
+  nav {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  nav a {
+    border-radius: 0;
+  }
 }
 @media only screen and (min-width : 600px ){
   .col-t-1 {width: 8.33%;}
